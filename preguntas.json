@@ -1,6 +1,6 @@
 {
   "tema1": [
-  [
+  
   {
     "texto": "Marque la opción correcta sobre los MCV:",
     "opciones": [
@@ -241,7 +241,7 @@
     ],
     "correcta": 0,
     "multiple": "tema_scrum_retrospectiva",
-    "id": 20
+    "id": 0
   },
   {
     "texto": "En Scrum, el Product Owner es responsable de:",
@@ -253,14 +253,14 @@
     ],
     "correcta": 2,
     "multiple": "tema_scrum_roles",
-    "id": 21
+    "id": 1
   },
   {
     "texto": "La Sprint Review es una reunión en la cual participan el equipo de Scrum y el Product Owner, siendo la participación del Scrum Master opcional, donde se evalúa el 'qué' se hizo en el sprint mediante una demo al cliente.",
     "opciones": ["Verdadero", "Falso"],
     "correcta": 1,
     "multiple": "tema_scrum_review",
-    "id": 22
+    "id": 2
   },
   {
     "texto": "¿Qué es el Burndown Chart?",
@@ -273,7 +273,7 @@
     ],
     "correcta": 3,
     "multiple": "tema_scrum_burndown",
-    "id": 23
+    "id": 3
   },
   {
     "texto": "Scrum está compuesto por:",
@@ -285,7 +285,7 @@
     ],
     "correcta": 2,
     "multiple": "tema_scrum_componentes",
-    "id": 24
+    "id": 4
   },
   {
     "texto": "Marque cuáles son artefactos de Scrum:",
@@ -300,7 +300,7 @@
     ],
     "correcta": 5,
     "multiple": "tema_scrum_artefactos",
-    "id": 25
+    "id": 5
   },
   {
     "texto": "Seleccione la opción que más se acerque a la definición de 'Reunión de Planificación' (Planning Meeting):",
@@ -314,7 +314,7 @@
     ],
     "correcta": 1,
     "multiple": "tema_scrum_planning",
-    "id": 26
+    "id": 6
   },
   {
     "texto": "Son tipos de estructuras de equipo:",
@@ -328,14 +328,14 @@
     ],
     "correcta": 5,
     "multiple": "tema_scrum_estructuras",
-    "id": 27
+    "id": 7
   },
   {
     "texto": "Los equipos centralizados generan más y mejores soluciones que los individuales, por lo tanto son mejores.",
     "opciones": ["Verdadero", "Falso"],
     "correcta": 1,
     "multiple": "tema_scrum_equipos",
-    "id": 28
+    "id": 8
   },
   {
     "texto": "Se realiza al inicio del proyecto y se estiman todos los PBI (Historias de Usuario) para luego distribuirlos en los sprints. ¿Cuál es la correcta?",
@@ -345,11 +345,11 @@
     ],
     "correcta": 1,
     "multiple": "tema_scrum_planning_simple",
-    "id": 29
+    "id": 9
   }
 ]
 
-]
+
 
   
 
