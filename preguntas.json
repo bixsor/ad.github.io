@@ -1,21 +1,22 @@
 {
   "tema1": [
+  [
   {
     "texto": "Marque la opción correcta sobre los MCV:",
     "opciones": [
-      "El ciclo de vida en Cascada es divisible mientras que el Incremental y el Evolutivo no lo son",
-      "El ciclo de vida en Evolutivo, al igual que el Incremental, es divisible y con alcance bien definido",
+      "El ciclo de vida en Cascada es divisible mientras que el Incremental y el Evolutivo no lo son.",
+      "El ciclo de vida en Evolutivo, al igual que el Incremental, es divisible y con alcance bien definido.",
       "Todos los ciclos de vida con alcance bien definidos son divisibles.",
-      "Los ciclos de vida que evolucionan a incrementos o de manera modular son fácilmente divisibies.",
-      "Todas las anteriores son correctas",
-      "Ninguna de las anteriores es correcta"
+      "Los ciclos de vida que evolucionan a incrementos o de manera modular son fácilmente divisibles.",
+      "Todas las anteriores son correctas.",
+      "Ninguna de las anteriores es correcta."
     ],
     "correcta": 3,
-    "multiple": "tema",
-    "id": 1
+    "multiple": "tema_mcv",
+    "id": 0
   },
   {
-    "texto": "En un proyecto Software la relación gente trabajo:",
+    "texto": "En un proyecto Software la relación gente-trabajo es:",
     "opciones": [
       "Es una relación lineal",
       "Es una relación dependiente",
@@ -26,106 +27,50 @@
       "Ninguna de las anteriores es correcta"
     ],
     "correcta": 3,
-    "multiple": "tema",
-    "id": 2
+    "multiple": "tema_relacion",
+    "id": 1
   },
   {
     "texto": "Marque la opción incorrecta sobre EDT (WBS):",
     "opciones": [
       "Consiste en dividir en componentes menores para facilitar la planificación y control.",
       "Organigrama jerárquico del proyecto donde se subdivide el mismo en menores componentes.",
-      "El nivel más alto de cada división se llama paquete de trabajo",
+      "El nivel más alto de cada división se llama paquete de trabajo.",
       "No define secuencia.",
       "El nivel más bajo se denomina paquete de trabajo, generalmente se agrupan bajo 'Paquetes de control'."
     ],
     "correcta": 2,
-    "multiple": "tema",
+    "multiple": "tema_edt",
+    "id": 2
+  },
+  {
+    "texto": "Marque la opción correcta sobre EDT (Estructura de desglose de trabajo) (WBS):",
+    "opciones": [
+      "0)No define secuencia",
+      "1)El nivel más alto de cada división se llama paquete de trabajo",
+      "2)Organigrama jerárquico del proyecto donde se subdivide el mismo en menores componentes",
+      "3)El nivel más bajo se denomina paquete de trabajo, generalmente se agrupan bajo 'Paquetes de control'",
+      "4)Consiste en dividir en componentes menores para facilitar la planificación y control",
+      "5) 0, 2, 3, 4 CORRECTAS"
+    ],
+    "correcta": 5,
+    "multiple": "tema_edt2",
     "id": 3
   },
   {
     "texto": "Los tipos de dependencias entre tareas pueden ser:",
     "opciones": [
       "Mandatorias, discrecionales, transitorias e permanentes.",
-      "Directas, indirectas, externas e internas.",
-      "Heredadas, implicitas, externas e transitorias.",
+      "Directas, Indirectas, externas e internas.",
+      "Heredadas, Implícitas, externas e transitorias.",
       "Opcionales, discrecionales, externas e internas.",
       "Mandatorias, discrecionales, externas e internas.",
-      "Todas las anteriores son correctas",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "correcta": 4,
-    "multiple": "tema",
-    "id": 4
-  },
-  {
-    "texto": "Como se puede modificar un elemento de configuración de una línea base establecida:",
-    "opciones": [
-      "Mediante la autorización del manager del proyecto.",
-      "Mediante una sesión grupal de todo el equipo para analizar los riesgos e impactos.",
-      "Mediante un proceso casi informal, siempre y cuando se comunique adecuadamente.",
-      "Mediante un proceso formal.",
-      "Todas las anteriores son correctas",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "correcta": 3,
-    "multiple": "tema",
-    "id": 5
-  },
-  {
-    "texto": "El objetivo de una línea base es la de:",
-    "opciones": [
-      "Impedir los cambios que generen un impacto desmesurado dentro del proyecto.",
-      "Controlar los cambios sin impedir aquellos que están debidamente justificados.",
-      "Controlar los cambios a efectos de mantener el alcance dentro de lo acordado en el plan de gestión.",
-      "Gestionar los elementos de configuración producidos durante la vida del proyecto.",
-      "Todas las anteriores son correctas",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "correcta": 4,
-    "multiple": "tema",
-    "id": 6
-  },
-  {
-    "texto": "Las razones por la que medimos y posteriormente utilizamos métricas son:",
-    "opciones": [
-      "Caracterizar. Evaluar, Predecir y Mejorar.",
-      "Estimar. Recopilar. Evaluar y Mejorar.",
-      "Predecir. Evaluar, Supervisar y Mejorar.",
-      "Identificar. Analizar, Medir y Mejorar.",
-      "Cuantificar. Analizar, Evaluar y Mejorar.",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "correcta": 0,
-    "multiple": "tema",
-    "id": 7
-  },
-  {
-    "texto": "Una Métrica es:",
-    "opciones": [
-      "Acción o acto de medir",
-      "Proceso medíante el cual se asignan número o símbolos a los atributos de las entidades del mundo real.",
-      "Proporciona un indicio cuantitativo de la extensión, cantidad, dimensión, capacidad o tamaño de algún atributo, producto o proceso",
-      "Medida cuantitativa del grado en el que un sistema, componente o proceso posee un atributo determinado.",
-      "Permite a los gerentes de proyectos aplicar ajustes para hacer las cosas mejor.",
-      "Conjunto de métricas que proporcionan comprensión acerca del proceso, proyecto o producto software."
-    ],
-    "correcta": 4,
-    "multiple": "tema",
-    "id": 8
-  },
-  {
-    "texto": "Las diferencias entre medición, medida, métrica e indicador son las siguientes:",
-    "opciones": [
-      "Medición es el acto de determinar una medida, la cual mediante la aplicación de algún cálculo se transforma en una métrica que proporciona una indicación cuantitativa de algún atributo y un conjunto de métricas nos da un indicador.",
-      "Medición es el acto de medir del cual se obtiene una métrica, la cual mediante la aplicación de algún cálculo se transforma en una medida y un conjunto de medidas nos da un indicador.",
-      "Medición es el acto de determinar una métrica, la cual mediante la aplicación de algún cálculo se transforma en una medida que proporciona una indicación cuantitativa de algún atributo y un conjunto de métricas y medidas nos da un indicador.",
-      "Medición es el acto de determinar una medida, la cual mediante el análisis y la estimación se transforma en una métrica que proporciona una indicación cualitativa de algún atributo y un conjunto de métricas nos da un indicador.",
-      "Medición es el acto de determinar una medida, que puede ser directa o indirecta, la cual mediante la aplicación de algún proceso de mejora se transforma en una métrica que proporciona una indicación cualitativa de algún atributo y un conjunto de métricas nos da un indicador.",
+      "Todas las anteriores son correctas.",
       "Ninguna de las anteriores es correcta."
     ],
-    "correcta": 2,
-    "multiple": "tema",
-    "id": 9
+    "correcta": 4,
+    "multiple": "tema_dependencias",
+    "id": 4
   },
   {
     "texto": "La planificación puede llevarse a cabo con:",
@@ -133,69 +78,277 @@
       "Fecha estimada o fecha resultante",
       "Fecha prefijada o fecha predecible",
       "Fecha resultante o fecha estipulada",
-      "Fecha Análoga o fecha heurística",
+      "Fecha análoga o fecha heurística",
       "Fecha resultante o fecha estimada por juicio experto",
-      "Todas las anteriores son correctas",
-      "Ninguna de las anteriores es correcta"
+      "Todas las anteriores son correctas.",
+      "Ninguna de las anteriores es correcta."
     ],
     "correcta": 2,
-    "multiple": "tema",
-    "id": 10
-  },
-  {
-    "texto": "Seleccione la opción que más se acerque a la definición de 'Reunión de Planificación' (Planning Meeting):",
-    "opciones": [
-      "Se realiza al inicio del proyecto y se estiman todos los PBI (Historia de Usuario) para luego distribuirlos en los sprints",
-      "Se realiza al inicio de cada Sprint donde se define que se va a construir y como, y se define el incremento",
-      "El Scrum Master selecciona que probables PBI (Historias de Usuario) se podrían construir y valida con el Equipo",
-      "El Product Owner selecciona que probables PBI (Historias de Usuario) se podrían construir y valida con el Equipo",
-      "Todas las anteriores son correctas",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "correcta": 1,
-    "multiple": "tema",
-    "id": 12
-  },
-  {
-    "texto": "Marque cuales son Artefactos de Scrum:",
-    "opciones": [
-      "Product Backlog",
-      "Development Backlog item",
-      "Sprint Planning",
-      "Retrospective Meeting",
-      "Sprint Backlog",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "correcta": 4,
-    "multiple": "tema",
-    "id": 13
+    "multiple": "tema_planificacion",
+    "id": 5
   },
   {
     "texto": "La diferencia de Fast Tracking con Crashing es:",
     "opciones": [
-      "Fast Tracking es acelerar los tiempos planificados de desarrollo, mientras que Crashing es comprimir las tareas acortando su duración lo más posible.",
-      "Fast Tracking es agregar más recursos al camino crítico para reducir su duración, mientras que Crashing es paralelizar las tareas del camino crítico a fin de acelerar los tiempos del proyecto.",
+      "Fast tracking es acelerar los tiempos planificados de desarrollo, mientras que crashing es cumplir las tareas acortando su duración lo más posible.",
+      "Fast Tracking es agregar más recursos al camino crítico para reducir su duración, mientras que crashing es paralelizar las tareas del camino crítico a fin de acelerar los tiempos del proyecto.",
       "Fast Tracking implica la paralelización de tareas del camino crítico y Crashing es ajustar o incrementar los recursos mientras se comprimen los tiempos planificados siempre manteniendo el alcance original.",
-      "Fast Tracking y Crashing son lo mismo depende de cómo lo llama una u otra bibliografía",
-      "Fast Tracking es agregar más recursos para permitir incrementar la holgura a fin de no afectar la fecha de finalización del proyecto, mientras que Crashing es paralelizar las tareas a fin de acelerar los tiempos del proyecto y reducir esa fecha.",
-      "Ninguna de las anteriores es correcta"
+      "Fast Tracking y Crashing son lo mismo depende de cómo lo llama una u otra bibliografía.",
+      "Fast Tracking es agregar más recursos para permitir incrementar la holgura a fin de no afectar la fecha de finalización del proyecto, mientras que crashing es paralelizar las tareas a fin de acelerar los tiempos del proyecto y reducir esa fecha.",
+      "Ninguna de las anteriores es correcta."
     ],
     "correcta": 2,
-    "multiple": "tema",
+    "multiple": "tema_fasttrack_crash",
+    "id": 6
+  },
+  {
+    "texto": "Seleccione la opción más adecuada. MS Project me permite asignar calendarios a:",
+    "opciones": [
+      "Solamente por Proyecto",
+      "Por Proyecto y por Recurso.",
+      "Solamente por Recurso.",
+      "Ninguna de las anteriores es correcta."
+    ],
+    "correcta": 1,
+    "multiple": "tema_msproject",
+    "id": 7
+  },
+  {
+    "texto": "Los procesos y actividades para la gestión de proyectos minimizan la probabilidad de fracaso garantizando el éxito del proyecto.",
+    "opciones": ["Verdadero", "Falso"],
+    "correcta": 1,
+    "multiple": "tema_gestion",
+    "id": 8
+  },
+  {
+    "texto": "Para la gestión de proyectos un proceso debe tener una salida explícita bien definida, pero puede carecer de entradas.",
+    "opciones": ["Verdadero", "Falso"],
+    "correcta": 1,
+    "multiple": "tema_procesos",
+    "id": 9
+  },
+  {
+    "texto": "En relación con la metodología para seleccionar el MCV visto en clase marque la opción correcta:",
+    "opciones": [
+      "Para seleccionar un MCV se debe hacer el promedio del resultado de los MCV seleccionados.",
+      "El valor más bajo es el MCV recomendado para utilizar.",
+      "Se evalúan 20 criterios agrupados por 4 categorías.",
+      "Cada uno de los criterios se evalúa por Bajo, Medio y Alto.",
+      "Se puede seleccionar algunas categorías, no es obligatorio seleccionar todas.",
+      "Ninguna de las anteriores es correcta."
+    ],
+    "correcta": 5,
+    "multiple": "tema_metodologia_mcv",
+    "id": 10
+  },
+  {
+    "texto": "Descomponer el problema facilita el refinamiento y la evaluación, lo cual nos garantiza más detalle al momento de estimar, el famoso 'divide y vencerás'.",
+    "opciones": ["Verdadero", "Falso"],
+    "correcta": 0,
+    "multiple": "tema_divide_venceras",
+    "id": 11
+  },
+  {
+    "texto": "El principio WWWWWWWHH, escrito por Barry Boehm, conduce a la definición de las características clave del proyecto y el plan del proyecto resultante. El principio trata de 7 cuestiones (preguntas) que van a definir aspectos claves del proyecto.",
+    "opciones": ["Verdadero", "Falso"],
+    "correcta": 0,
+    "multiple": "tema_boehm",
+    "id": 12
+  },
+  {
+    "texto": "Cuál NO es una característica de los riesgos:",
+    "opciones": [
+      "Tienen relación con el futuro",
+      "Implican cambios",
+      "Generan incertidumbre",
+      "No podemos evitarlos."
+    ],
+    "correcta": 3,
+    "multiple": "tema_riesgos",
+    "id": 13
+  },
+  {
+    "texto": "Clasificación de riesgos inicial es:",
+    "opciones": ["0)Conocidos", "1)Predecibles", "2)Esperados", "3)Inesperados", "4)Moderados", "5)Impredecibles", "0,1,5 CORRECTAS"],
+    "correcta": 6,
+    "multiple": "tema_riesgos_clasificacion",
     "id": 14
   },
   {
-    "texto": "Seleccione la opción más adecuada. MS Project me permite asignar Calendarios a:",
+    "texto": "Las actividades de gestión de riesgos pertenecen a:",
     "opciones": [
-      "Solamente por Proyecto",
-      "Por Proyecto y por Recurso",
-      "Solamente por Recurso",
+      "Procesos de selección MCV",
+      "Procesos Integrales de Proyecto",
+      "Procesos Orientados al desarrollo de Software",
+      "Procesos de Gestión de Proyectos",
+      "Procesos Transversales de Validación y Control"
+    ],
+    "correcta": 3,
+    "multiple": "tema_gestion_riesgos",
+    "id": 15
+  },
+  {
+    "texto": "Un marco de proceso me define las actividades esenciales con un propósito específico que puedo utilizar dentro del ciclo de vida del proyecto, pero no me define ni obliga a utilizar herramientas.",
+    "opciones": ["Verdadero", "Falso"],
+    "correcta": 1,
+    "multiple": "tema_marco_proceso",
+    "id": 16
+  },
+  {
+    "texto": "La definición más precisa de Camino Crítico es:",
+    "opciones": [
+      "La sumatoria de las actividades que tienen holgura igual a 1",
+      "Las actividades que tienen riesgo muy alto",
+      "Las actividades que de demorarse, se posterga la fecha de fin de proyecto",
+      "Conjunto de actividades que definen la duración del proyecto",
+      "Todas las anteriores son correctas",
+      "Ninguna es correcta"
+    ],
+    "correcta": 2,
+    "multiple": "tema_camino_critico",
+    "id": 17
+  },
+  {
+    "texto": "Son características de un modelo de proceso:",
+    "opciones": [
+      "Proporciona la estructura desde la que se puede establecer un desarrollo de software.",
+      "Un pequeño número de actividades estructurales se puede aplicar a todos los proyectos.",
+      "Diferentes conjuntos de tareas permiten a las actividades estructurales adaptarse al tipo de proyecto y a los requisitos del equipo.",
+      "Todas las anteriores."
+    ],
+    "correcta": 3,
+    "multiple": "tema_modelo_proceso",
+    "id": 18
+  },
+  {
+    "texto": "Para una exitosa gestión de proyectos se sugiere:",
+    "opciones": [
+      "Hacer buen seguimiento del proceso en todo momento.",
+      "Mantener y motivar al personal para evitar o minimizar la rotación.",
+      "Ambas correctas"
+    ],
+    "correcta": 2,
+    "multiple": "tema_exito_gestion",
+    "id": 19
+  },
+    {
+    "texto": "¿Por qué es importante que el equipo de Scrum celebre reuniones de retrospectiva al final de cada sprint?",
+    "opciones": [
+      "Porque permite al equipo reflexionar sobre el sprint, identificar mejoras y fortalecer la colaboración, optimizando así su desempeño.",
+      "Porque el Product Owner puede evaluar el rendimiento del equipo.",
+      "Porque ayuda a planificar las tareas para el próximo sprint.",
+      "Porque reduce el tiempo necesario para las reuniones de planificación."
+    ],
+    "correcta": 0,
+    "multiple": "tema_scrum_retrospectiva",
+    "id": 0
+  },
+  {
+    "texto": "En Scrum, el Product Owner es responsable de:",
+    "opciones": [
+      "Gestionar el equipo de desarrollo.",
+      "Planificar y realizar las Daily Scrums.",
+      "Priorizar el Product Backlog y asegurar el valor del trabajo realizado.",
+      "Realizar las pruebas de calidad."
+    ],
+    "correcta": 2,
+    "multiple": "tema_scrum_roles",
+    "id": 1
+  },
+  {
+    "texto": "La Sprint Review es una reunión en la cual participan el equipo de Scrum y el Product Owner, siendo la participación del Scrum Master opcional, donde se evalúa el 'qué' se hizo en el sprint mediante una demo al cliente.",
+    "opciones": ["Verdadero", "Falso"],
+    "correcta": 1,
+    "multiple": "tema_scrum_review",
+    "id": 2
+  },
+  {
+    "texto": "¿Qué es el Burndown Chart?",
+    "opciones": [
+      "Un tablero, que puede ser virtual o físico, de acceso público al equipo del proyecto, donde se muestra el trabajo realizado del sprint.",
+      "Un tablero, que puede ser virtual o físico, de acceso exclusivo al equipo de Scrum, Scrum Master y PO, donde se muestra el trabajo realizado del sprint.",
+      "Un tablero físico, de acceso público al equipo del proyecto, menos al equipo de Scrum, donde se muestra el trabajo pendiente del sprint.",
+      "Un tablero, que puede ser virtual o físico, de acceso público al equipo del proyecto, donde se muestra el trabajo pendiente del sprint.",
+      "Ninguna de las anteriores es correcta."
+    ],
+    "correcta": 3,
+    "multiple": "tema_scrum_burndown",
+    "id": 3
+  },
+  {
+    "texto": "Scrum está compuesto por:",
+    "opciones": [
+      "3 Roles, 4 Artefactos y 3 Ceremonias.",
+      "4 Roles, 6 Artefactos y 4 Ceremonias.",
+      "3 Roles, 4 Artefactos y 4 Ceremonias.",
+      "Ninguna de las anteriores es correcta."
+    ],
+    "correcta": 2,
+    "multiple": "tema_scrum_componentes",
+    "id": 4
+  },
+  {
+    "texto": "Marque cuáles son artefactos de Scrum:",
+    "opciones": [
+      "Product Backlog",
+      "Development Backlog Item",
+      "Sprint Planning",
+      "Retrospective Meeting",
+      "Sprint Backlog",
+      "Product Backlog y Sprint Backlog ",
       "Ninguna de las anteriores es correcta"
     ],
+    "correcta": 5,
+    "multiple": "tema_scrum_artefactos",
+    "id": 5
+  },
+  {
+    "texto": "Seleccione la opción que más se acerque a la definición de 'Reunión de Planificación' (Planning Meeting):",
+    "opciones": [
+      "Se realiza al inicio del proyecto y se estiman todos los PBI (Historias de Usuario) para luego distribuirlos en los sprints.",
+      "Se realiza al inicio de cada Sprint donde se define qué se va a construir y cómo, y se define el incremento.",
+      "El Scrum Master selecciona qué probables PBI (Historias de Usuario) se podrían construir y valida con el equipo.",
+      "El Product Owner selecciona qué probables PBI (Historias de Usuario) se podrían construir y valida con el equipo.",
+      "Todas las anteriores son correctas.",
+      "Ninguna de las anteriores es correcta."
+    ],
     "correcta": 1,
-    "multiple": "tema",
-    "id": 15
+    "multiple": "tema_scrum_planning",
+    "id": 6
+  },
+  {
+    "texto": "Son tipos de estructuras de equipo:",
+    "opciones": [
+      "0)Descentralizado controlado",
+      "1)Descentralizado descontrolado",
+      "2)Centralizado controlado",
+      "3)Centralizado democrático",
+      "4)Descentralizado democrático",
+      "0,1,4 CORRECTAS"
+    ],
+    "correcta": 5,
+    "multiple": "tema_scrum_estructuras",
+    "id": 7
+  },
+  {
+    "texto": "Los equipos centralizados generan más y mejores soluciones que los individuales, por lo tanto son mejores.",
+    "opciones": ["Verdadero", "Falso"],
+    "correcta": 1,
+    "multiple": "tema_scrum_equipos",
+    "id": 8
+  },
+  {
+    "texto": "Se realiza al inicio del proyecto y se estiman todos los PBI (Historias de Usuario) para luego distribuirlos en los sprints. ¿Cuál es la correcta?",
+    "opciones": [
+      "Se realiza al inicio del proyecto y se estiman todos los PBI (Historias de Usuario) para luego distribuirlos en los sprints.",
+      "Se realiza al inicio de cada Sprint donde se define qué se va a construir y cómo, y se define el incremento."
+    ],
+    "correcta": 1,
+    "multiple": "tema_scrum_planning_simple",
+    "id": 9
   }
+]
+
 ]
 
   
