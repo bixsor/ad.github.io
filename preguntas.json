@@ -241,7 +241,7 @@
     ],
     "correcta": 0,
     "multiple": "tema_scrum_retrospectiva",
-    "id": 0
+    "id": 20
   },
   {
     "texto": "En Scrum, el Product Owner es responsable de:",
@@ -253,14 +253,14 @@
     ],
     "correcta": 2,
     "multiple": "tema_scrum_roles",
-    "id": 1
+    "id": 21
   },
   {
     "texto": "La Sprint Review es una reunión en la cual participan el equipo de Scrum y el Product Owner, siendo la participación del Scrum Master opcional, donde se evalúa el 'qué' se hizo en el sprint mediante una demo al cliente.",
     "opciones": ["Verdadero", "Falso"],
     "correcta": 1,
     "multiple": "tema_scrum_review",
-    "id": 2
+    "id": 22
   },
   {
     "texto": "¿Qué es el Burndown Chart?",
@@ -273,7 +273,7 @@
     ],
     "correcta": 3,
     "multiple": "tema_scrum_burndown",
-    "id": 3
+    "id": 23
   },
   {
     "texto": "Scrum está compuesto por:",
@@ -285,7 +285,7 @@
     ],
     "correcta": 2,
     "multiple": "tema_scrum_componentes",
-    "id": 4
+    "id": 24
   },
   {
     "texto": "Marque cuáles son artefactos de Scrum:",
@@ -300,7 +300,7 @@
     ],
     "correcta": 5,
     "multiple": "tema_scrum_artefactos",
-    "id": 5
+    "id": 25
   },
   {
     "texto": "Seleccione la opción que más se acerque a la definición de 'Reunión de Planificación' (Planning Meeting):",
@@ -314,7 +314,7 @@
     ],
     "correcta": 1,
     "multiple": "tema_scrum_planning",
-    "id": 6
+    "id": 26
   },
   {
     "texto": "Son tipos de estructuras de equipo:",
@@ -328,14 +328,14 @@
     ],
     "correcta": 5,
     "multiple": "tema_scrum_estructuras",
-    "id": 7
+    "id": 27
   },
   {
     "texto": "Los equipos centralizados generan más y mejores soluciones que los individuales, por lo tanto son mejores.",
     "opciones": ["Verdadero", "Falso"],
     "correcta": 1,
     "multiple": "tema_scrum_equipos",
-    "id": 8
+    "id": 28
   },
   {
     "texto": "Se realiza al inicio del proyecto y se estiman todos los PBI (Historias de Usuario) para luego distribuirlos en los sprints. ¿Cuál es la correcta?",
@@ -345,7 +345,7 @@
     ],
     "correcta": 1,
     "multiple": "tema_scrum_planning_simple",
-    "id": 9
+    "id": 29
   }
 ]
 
