@@ -544,6 +544,42 @@
     "correcta": 1,
     "multiple": "tema_msproject_calendarios",
     "id": 15
+  },
+  {
+    "texto": "¿Cuál de las siguientes afirmaciones describe mejor cómo las 4 P (Proceso, Producto, Personal y Proyecto) interactúan en la gestión de proyectos?",
+    "opciones": [
+      "Cada una funciona de manera aislada, sin influencias mutuas",
+      "Son componentes interdependientes que trabajan en conjunto para lograr los objetivos del proyecto",
+      "Solo el proceso y el producto son relevantes para cumplir los plazos",
+      "El personal es el único pilar critico para el éxito del proyecto"
+    ],
+    "correcta": 1,
+    "multiple": "tema_msproject_calendarios",
+    "id": 16
+  },
+    {
+    "texto": "¿Qué caracteriza al 'Proceso' como uno de los pilares en la gestión de proyectos?",
+    "opciones": [
+      "Es un conjunto estructurado de actividades y tareas que conducen a la producción de software decalidad.",
+      "Es la asignación exclusiva de tareas al personal del equipo",
+      "Es un sistema automatizado que elimina errores de programación",
+      "Es una técnica de estimación de costos para proyectos"
+    ],
+    "correcta": 0,
+    "multiple": "tema_msproject_calendarios",
+    "id": 17
+  },
+   {
+    "texto": "¿Cuál es el objetivo principal de la ingeniería de software según los apuntes de clase?",
+    "opciones": [
+      "Producir software sin importar los costos o los plazos.",
+      "Diseñar y construir software de alta calidad, dentro de plazos y costos establecidos.",
+      "Optimizar únicamente los procesos de codificación.",
+      "Eliminar la necesidad de pruebas y documentación."
+    ],
+    "correcta": 1,
+    "multiple": "tema_msproject_calendarios",
+    "id": 18
   }
 ]
 

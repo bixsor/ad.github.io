@@ -8,7 +8,7 @@ console.log(numeroGrupo1)
 fetch('./preguntas.json')
   .then(response => response.json())
   .then(preguntas => {
-    todasLasPreguntas = preguntas; // todasLasPreguntas ahora es un objeto con temas
+    todasLasPreguntas = preguntas; 
 
     numeroGrupo1.addEventListener("change", (e) => {
       mostrarSegunSeleccion(e.target.value);
@@ -123,6 +123,8 @@ function mostrarPreguntasLista(preguntas) {
   const questionsDiv = document.getElementById("questions");
   questionsDiv.innerHTML = '';
 
+  preguntas = shuffle(preguntas);
+  
   preguntas.forEach((pregunta, i) => {
     const div = document.createElement("div");
     div.classList.add("mb-4", "p-3", "fondo", "shadow-sm");
@@ -172,3 +174,11 @@ function mostrarPreguntasLista(preguntas) {
 
 
 } )
+
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
